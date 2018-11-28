@@ -1,14 +1,14 @@
 import React from 'react'
 import App, { Container } from 'next/app'
-import Mylayout from '../layouts/Mylayout'
+import MovieLayout from '../layouts/MovieLayout'
 
 class Layout extends React.Component {
   render () {
     const {children} = this.props
     return (
-      <Mylayout>
+      <MovieLayout>
         {children}
-      </Mylayout>
+      </MovieLayout>
     )
   }
 }
