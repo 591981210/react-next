@@ -3,6 +3,11 @@ import Router from 'next/router'
 import Mynav from '../../components/Mynav'
 import Mylayout from '../../layouts/Mylayout'
 
+const handler = () =>{
+    Router.push({pathname: '/next-route/student', query: {id: 1}})
+}
+
+
 const NextRoute = () => (
     <div>
         {/*link 无法样式设置*/}
@@ -16,7 +21,7 @@ const NextRoute = () => (
         </Link>
 
         {/*<span onClick={()=>Router.push('/next-router/student')}>student</span>*/}
-        <p onClick={() => Router.push({pathname: '/next-route/student', query: {id: 1}})}>student</p>
+        <p onClick={handler}>student</p>
         {/*<Mynav></Mynav>*/}
         {/*<Mylayout>*/}
             <p>next路由学习</p>
