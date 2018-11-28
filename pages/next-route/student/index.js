@@ -1,7 +1,11 @@
-const student = () =>(
+import Mylayout from '../../../layouts/Mylayout'
+
+const student = () => (
     <div>
-        student路由学习
+        <Mylayout>
+            student路由学习
+        </Mylayout>
     </div>
 )
 
-export default  student
+export default student

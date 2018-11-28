@@ -1,7 +1,14 @@
-const teacher = () =>(
+import Mynav from '../../../components/Mynav'
+import Mylayout from '../../../layouts/Mylayout'
+
+const teacher = () => (
     <div>
-        teacher路由学习
+        {/*<Mynav></Mynav>*/}
+        <Mylayout>
+            teacher路由学习
+        </Mylayout>
     </div>
+
 )
 
-export default  teacher
+export default teacher
