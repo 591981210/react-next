@@ -21,7 +21,7 @@ const Teacher = () => (
                 teacherList.map(item => (
                     <li key={item.id}>
                         {/* 可以通过Link组件的as属性给路径取别名 */}
-                        <Link  href={`/next-route/teacher/detail?id=${item.id}`}>
+                        <Link as={`/next-route/teacher/${item.id}`} href={`/next-route/teacher/detail?id=${item.id}`}>
                             <a>{item.name}</a>
                         </Link>
                     </li>
