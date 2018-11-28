@@ -18,9 +18,9 @@ const NextRoute = () => (
         {/*<span onClick={()=>Router.push('/next-router/student')}>student</span>*/}
         <p onClick={() => Router.push({pathname: '/next-route/student', query: {id: 1}})}>student</p>
         {/*<Mynav></Mynav>*/}
-        <Mylayout>
+        {/*<Mylayout>*/}
             <p>next路由学习</p>
-        </Mylayout>
+        {/*</Mylayout>*/}
     </div>
 );
 

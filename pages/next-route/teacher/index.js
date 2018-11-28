@@ -4,9 +4,9 @@ import Mylayout from '../../../layouts/Mylayout'
 const teacher = () => (
     <div>
         {/*<Mynav></Mynav>*/}
-        <Mylayout>
+        {/*<Mylayout>*/}
             teacher路由学习
-        </Mylayout>
+        {/*</Mylayout>*/}
     </div>
 
 )

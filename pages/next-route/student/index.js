@@ -2,9 +2,9 @@ import Mylayout from '../../../layouts/Mylayout'
 
 const student = () => (
     <div>
-        <Mylayout>
+        {/*<Mylayout>*/}
             student路由学习
-        </Mylayout>
+        {/*</Mylayout>*/}
     </div>
 )
 
