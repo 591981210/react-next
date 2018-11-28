@@ -1,7 +1,7 @@
-const NextRoute = () =>(
+const teacher = () =>(
     <div>
         teacher路由学习
     </div>
 )
 
-export default  NextRoute
+export default  teacher
